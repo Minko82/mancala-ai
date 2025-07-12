@@ -1,3 +1,3 @@
-# ♟️ Smart Mancala – AI-Powered Mancala Game
+# ♟️ Mancala AI
 
 ih
