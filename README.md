@@ -7,14 +7,6 @@ A command-line Mancala game powered by AI using **Minimax** and **Alpha-Beta Pru
 ### 📊 100-Game Simulation Mode
 Benchmark AI performance through automated simulations that reveal strategic strength over time.
 
-<p align="center">
-  <img width="159" height="422" alt="Simulation Screenshot" src="https://github.com/user-attachments/assets/f03eda7f-974c-4704-904c-7e96c88b57aa" />
-</p>
-
----
-
-### 🧪 Simulation Breakdown
-
 | Player 1                         | Player 2                         | Depth (Plies) | Games | Description                        |
 |----------------------------------|----------------------------------|----------------|--------|------------------------------------|
 | `random_player`                  | `random_player`                  | –              | 100    | Baseline comparison of randomness |
@@ -23,6 +15,13 @@ Benchmark AI performance through automated simulations that reveal strategic str
 | `alpha_beta_player_with_variable_plies(10)` | `random_player`     | 10             | 100    | Deeper Alpha-Beta vs random       |
 | `minimax_player_with_variable_plies(5)` | `alpha_beta_player_with_variable_plies(5)` | 5 | 100 | Minimax vs Alpha-Beta             |
 
+
+<br>
+
+#### To Run Simulation: 
+```
+  python mancala_ai.py
+```
 ---
 
 ### 📈 Statistical Analysis
