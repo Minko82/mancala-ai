@@ -2,6 +2,8 @@
 
 A command-line Mancala game powered by AI using **Minimax** and **Alpha-Beta Pruning**, with configurable search depth for adjustable difficulty.
 
+<br>
+
 ---
 
 ### 📊 100-Game Simulation Mode
@@ -22,6 +24,9 @@ Benchmark AI performance through automated simulations that reveal strategic str
 ```
   python mancala_ai.py
 ```
+
+<br>
+
 ---
 
 ### 📈 Statistical Analysis
